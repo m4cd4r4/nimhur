@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url("converted_bg.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  /* border: 1px solid red; */
+  
+}
+
+.logo {
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(105, 104, 104);
+  /* border: 1px solid red; */
+}
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 28px;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .logo {
+    font-size: 40px;
+  }
+}
+
